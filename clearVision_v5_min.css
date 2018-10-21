@@ -1,4 +1,4 @@
-@import "https://omgdani.github.io/ClearVisionFixes/ClearVisionFixes.css";
+@import "https://framagit.org/Leroux47/discord-themes/raw/master/clearVision_fixes.css";
 
 .channels-wrap>[class*="container"]:last-child::after {
   content: "ClearVision v5.2.5";
