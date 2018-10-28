@@ -1,0 +1,106 @@
+//META{"name":"Borderlands","description":"A Borderlands theme for Discord","author":"Leroux47","version":"0.1.0"}*//
+/* import de la police de caractère du thème*/
+@import url("https://fonts.googleapis.com/css?family=Gruppo|Lato|Open+Sans|Playfair+Display|Raleway|Roboto");
+
+:root {
+  --mainColor: #e6b800 !important;
+  --secondColor: black !important;
+}
+
+body {
+	background-image: url(https://i.imgur.com/MQAOljZ.jpg);
+}
+
+/*Change all the default font*/
+#app-mount, [class="theme-dark"], .description-3_Ncsb, .theme-dark .itemDefault-3Jdr52, .ui-tab-bar-item {
+  font-family:  Gruppo;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+/*Text color for settings headers*/
+.header-2RyJ0Y, .ui-tab-bar-header {
+	color: var(--mainColor) !important;
+	font-size: 17px !important;
+}
+
+/*ESC button and friends activity style*/
+.keybind-KpFkfr, .theme-dark .activity-1IYsbk, .friends-table .friends-row .discord-tag .username,
+.friends-column-status .status-text, .channel-2QD9_O, .name-2WpE7M, a {
+	color: #fff !important;
+}
+
+/*Buttons color*/
+/*button*/, .theme-dark .homeIcon-1FoKUJ {
+	background-color: var(--mainColor) !important;
+	color: var(--secondColor) !important;
+}
+
+/*Remove border of status indicators*/
+.theme-dark .status-2kJpnA, .theme-dark .status-2s6iDp {
+	border: 0px solid transparent !important;
+}
+
+/*Définition de la transparence du fond de tous les éléments afin d'afficher l'image de fond*/
+#app-mount, [class="theme"], [class="chat"], .typeWindows-1za-n7, .wordmark-2iDDfm, .app-19_DXt, .app, .layers, .flex-1xMQg5, .guildsWrapper,
+.channels-Ie2l6A, .flexChild-faoVW3, .container-2Thooq.da-container, .scroller-wrap, .theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .layers-3iHuyZ, .theme-dark .guildsWrapper-5TJh6A, .theme-dark .layer-3QrUeG,
+.messages-3amgkR, .membersWrap-2h-GB4, .scrollerWrap-2lJEkd, .scroller-2FKFPG, .flex-spacer, .containerCozyBounded-1rKFAn, .messageCozy-2JPAPA,
+.headerCozy-2N9HOL, .container-2lgZY8, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .title-3qD0b-,
+.theme-dark .members-1998pB, .theme-dark .standardSidebarView-3F1I7i, .theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy {
+  background-color: transparent !important;
+}
+
+/*Make some elements semi-transparent*/
+.titleWrapper-1l0xT9, .theme-dark .memberOnline-1CIh-0, .containerCozyBounded-1rKFAn.containerCozy-jafyvG.container-1YxwTf.da-containerCozyBounded.da-containerCozy.da-container,
+.theme-dark .memberOnline-1CIh-0, .popout-3sVMXz, .theme-dark .inner-zqa7da, .content-OzHfo4 {
+  border-radius: 15px !important;
+}
+
+/*Chat and guild members background*/
+.scroller-wrap.scrollerWrap-2su1QI.da-scrollerWrap, .content-OzHfo4, .memberOffline-2lN7gt,
+.theme-dark #friends {
+  background-color: rgba(32, 34, 37, 0.68) !important;
+  border-radius: 25px !important;
+}
+
+/*Define background color for selected items and the scroll bar*/
+.side-8zPYf6 .itemSelected-1qLhcL, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .guild-1EfMGQ .guildIcon-CT-ZDq, .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+  background-color: var(--mainColor) !important;
+  color: var(--secondColor) !important;
+  border-color: transparent !important;
+  font-weight: bold !important;
+}
+
+.markup-2BOw-j, .textArea-2Spzkt {
+  color: #fff !important;
+  font-size: 16px !important;
+  font-family:  Gruppo;
+}
+
+.username-_4ZSMR, .membersGroup-v9BXpm, .nameTag-3p0yK- {
+  color: #fff !important;
+  font-size: 20px !important;
+  font-family:  Gruppo;
+  font-weight: bold !important;
+}
+
+.channel-2QD9_O, .name-2WpE7M {
+  color: #fff !important;
+  font-size: 17px !important;
+  font-family:  Gruppo;
+  font-weight: bold !important;
+}
+
+header {
+  color: #fff !important;
+  font-size: 16px !important;
+  font-family:  Gruppo;
+  font-weight: bold !important;
+}
+
+.input-autosize-input {
+  color: #fff !important;
+  font-size: 19px !important;
+  font-family:  Gruppo;
+  font-weight: bold !important;
+}
