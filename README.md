@@ -2,7 +2,7 @@
 
 Les thèmes de ce projet fonctionnent grâce à Betterdiscord. Betterdiscord est un programme permettant d'étendre les fonctionnalités du client classique grâce notamment à des plugins (possibilité de citer des messages, de crypter des conversation, etc.) et des thèmes (comme ce projet).
 
-Si vous ne l'avez pas encore installé sur votre système, je vous conseille de télécharger et installer Betterdiscord, et plus particulièrement de fork que Rauenzi a fait de ce logiciel, disponible [ici](https://github.com/rauenzi/BetterDiscordApp/releases). _BandageBD_ est compatible avec les systèmes Windows et Linux nativement. Pour les utilisateurs Linux, vous devrez vous débrouiller avec l'archive `.tar.gz` ou alors, si vous avez de la chance, votre gestionnaire de paquet l'aura intégré dans ses dépôts.
+Si vous ne l'avez pas encore installé sur votre système, je vous conseille de télécharger et installer Betterdiscord, et plus particulièrement le fork que Rauenzi a fait de ce logiciel, disponible [ici](https://github.com/rauenzi/BetterDiscordApp/releases). _BandageBD_ est compatible avec les systèmes Windows et MacOS nativement. Pour les utilisateurs Linux, vous devrez vous débrouiller avec l'archive `.tar.gz` ou alors, si vous avez de la chance, votre gestionnaire de paquet l'aura intégré dans ses dépôts.
 
 Une fois _BandageBD_ installé, rechargez Discord (`ctrl + R` sous Windows et Linux) afin qu'il prenne en compte les changements de configuration. Pour savoir si le programme a été détecté, ouvrez les paramètres de Discord : une nouvelle section intitulée `Bandaged BD` doit s'être ajoutée à la liste de paramètres existante. Si ce n'est pas le cas, redémarrez Discord jusqu'à ce que ça apparaisse, ou alors réinstallez _Bandaged BD_.
 
