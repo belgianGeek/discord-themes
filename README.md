@@ -20,9 +20,11 @@ Les thèmes fournis dans ce projet ne sont pas à votre goût ? Pas de soucis, l
 
 - Ouvrez les paramètres de Discord et rendez-vous dans la section _Custom CSS_.
 - Pour changer les couleurs, commencez par taper ceci dans la boîte de saisie, en remplaçant _couleur1_, _couleur2_ et _couleur3_ par ce que vous désirez.
+
     ![changer les couleurs de Discord](https://framapic.org/V2lfjDN5nHH5/ytHmpDrFxAZP.png)
 
 - Pour changer le fond d'écran, il vous suffit d'ajouter ces règles-ci dans la même boîte de saisie :
+
     ![changer le fond d'écran de Discord](https://framapic.org/YoO6zOI5vZn4/ZQh4LmjGm1hH.png)
 
 - Changer la police d'écriture est un peu plus compliqué... 😁 Vous devez d'abord connaître la police que vous désirez utiliser. Ensuite, vérifier si elle est disponible via [Google fonts](https://fonts.google.com) [ou un équivalent](https://alternativeto.net/software/google-web-fonts/).
