@@ -1,5 +1,3 @@
-Ce projet a pour but de permettre à toute personnne de personnaliser l'interface de Discord selon ses envies (couleurs, fond d'écran, police, etc.) et se veut utilisable par tous, sans avoir nécessairement des compétences/connaissances en programmation.
-
 # Installation
 
 Les thèmes de ce projet fonctionnent grâce à Betterdiscord. Betterdiscord est un programme permettant d'étendre les fonctionnalités du client classique grâce notamment à des plugins (possibilité de citer des messages, de crypter des conversation, etc.) et des thèmes (comme ce projet).
