@@ -47,6 +47,5 @@ Ouvrez une issue ou contactez-moi si vous avez le moindre problème et que vous 
 
 # Licence
 
-L'entiéreté de ce dépôt est placé sous licence GNU GPL v3.
-
+L'entiéreté de ce dépôt est placé sous licence GNU GPL v3, à l'exception de l'avatar du projet, qui vient d'[ici](https://www.iconfinder.com/icons/1542372/discord_media_social_icon).
 
