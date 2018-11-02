@@ -14,7 +14,7 @@ Pour activer/désactiver un thème, il vous suffit de cliquer sur le bouton pré
 
 Le thème de base (pas très beau, je vous l'accorde 😉) est `nadt.theme.css`.
 
-Les thèmes fournis dans ce projet ne sont pas à votre goût ? Pas de soucis, la personnalisation est très simple.
+Les thèmes fournis dans ce projet (un paerçu de chcun est disponible [ici](https://framagit.org/Leroux47/discord-themes/tree/master/images)) ne sont pas à votre goût ? Pas de soucis, la personnalisation est très simple.
 
 Pour commencer, ouvrez les paramètres de Discord et rendez-vous dans la section _Custom CSS_.
 
