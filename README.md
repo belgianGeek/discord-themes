@@ -39,7 +39,7 @@ C'est un peu plus compliqué... 😁 Vous devez d'abord connaître la police que
 
 Ceci fait, vous pouvez importer la police à utiliser grâce à une règle à entrer  dans la boîte de saisie _Custom CSS_, comme ceci :
 
-    `@import url(<url_police>);`
+    @import url(<url_police>);
 
     :root {
         --font : <nom_police>;
