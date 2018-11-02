@@ -133,10 +133,10 @@ border-radius: 15px 0px 0px 15px;
 }
 
 /*Channels name style*/
-.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameConnectedText-3CzNQn,
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameConnectedText-3CzNQn,
 .nameConnectedVoice-MHUX5F, .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5,
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .actionIcon-2Hi9ZG,
-.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
+.nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
   color: var(--mainColor) !important;
   background-color: var(--thirdColor) !important;
 }
