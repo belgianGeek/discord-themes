@@ -14,26 +14,51 @@ Pour activer/désactiver un thème, il vous suffit de cliquer sur le bouton pré
 
 Le thème de base (pas très beau, je vous l'accorde 😉) est `nadt.theme.css`.
 
-Les thèmes fournis dans ce projet ne sont pas à votre goût ? Pas de soucis, la personnalisation est très simple:
+Les thèmes fournis dans ce projet ne sont pas à votre goût ? Pas de soucis, la personnalisation est très simple.
 
-- Ouvrez les paramètres de Discord et rendez-vous dans la section _Custom CSS_.
-- Pour changer les couleurs, commencez par taper ceci dans la boîte de saisie, en remplaçant _couleur1_, _couleur2_ et _couleur3_ par ce que vous désirez.
+Pour commencer, ouvrez les paramètres de Discord et rendez-vous dans la section _Custom CSS_.
 
-    ![changer les couleurs de Discord](https://framapic.org/V2lfjDN5nHH5/ytHmpDrFxAZP.png)
+## Changer l'apparence générale (couleurs, police d'écriture, etc.)
 
-- Pour changer le fond d'écran, il vous suffit d'ajouter ces règles-ci dans la même boîte de saisie :
+1. `--mainColor: <couleur>` : permet notamment de changer la couleur des titres, de l'intitulé des boutons, des checkboxes, l'arrière-plan des noms de serveurs (s'ils n'ont pas d'avatar), ainsi que celui des notifications.
+2. `--secondColor: <couleur>` : permet notamment de modifier l'arrière plan des boutons et le style appliqué aux noms des serveurs lorsqu'ils sont survolés.
+3. `--thirdColor: <couleur>` : modifie la couleur d'arrière-plan des salons de discussion, de la liste d'amis, de la liste des membres d'un serveur ou encore celui des paramètres.
+4. `--font: <nom_police>` : change la police de caractère utilisée par Discord. Cette règle est à utiliser conjointement avec `@import url(<url_police>)`. Cette règle est détaillée au point suivant.
+5. `--textColor: <couleur>` : change la couleur du texte (presque) partout dans Discord.
 
-    ![changer le fond d'écran de Discord](https://framapic.org/YoO6zOI5vZn4/ZQh4LmjGm1hH.png)
+Toutes ces règles (à l'exception du `@import` qui doit être placé en premier, en-dehors de tout ensemble de règles) doivent être placées à l'intérieur d'un bloc de déclarations comme suit :
 
-- Changer la police d'écriture est un peu plus compliqué... 😁 Vous devez d'abord connaître la police que vous désirez utiliser. Ensuite, vérifier si elle est disponible via [Google fonts](https://fonts.google.com) [ou un équivalent](https://alternativeto.net/software/google-web-fonts/).
+    :root {
+        règle1 : <valeur>;
+        règle2 : <valeur>;
+        }
+
+## Changer la police d'écriture
+
+C'est un peu plus compliqué... 😁 Vous devez d'abord connaître la police que vous désirez utiliser. Ensuite, vérifier si elle est disponible via [Google fonts](https://fonts.google.com) [ou un équivalent](https://alternativeto.net/software/google-web-fonts/).
 
 Ceci fait, vous pouvez importer la police à utiliser grâce à une règle à entrer  dans la boîte de saisie _Custom CSS_, comme ceci :
 
-    ![changer la police de Discord](https://framapic.org/8sVtya3xxhF3/bCJvNi42EqxB.png)
+@import url(<url_police>);
+
+:root {
+    --font: <nom_police>;
+}
 
 N'oubliez pas non plus d'utiliser le paramètre `--font: <nom_police> !important` afin d'utiliser la police dans votre thème.
 
 Vous pouvez changer le couleur du texte grâce à la règle `--textColor: <couleur>`.
+
+## Modifier la couleur/l'image utilisée en fond d'écran de Discord
+
+Vous pouvez utiliser le schéma suivant :
+
+    body {
+        background-image: url(<url_image>);
+        background-color: <couleur>;
+    }
+    
+Notez que vous ne pouvez appliquer que l'une de ces deux règles, et non pas les deux en même temps.
 
 # Contribuer
 
