@@ -35,7 +35,7 @@ Toutes ces règles (à l'exception du `@import` qui doit être placé en premier
 
 ## Changer la police d'écriture
 
-C'est un peu plus compliqué... 😁 Vous devez d'abord connaître la police que vous désirez utiliser. Ensuite, vérifier si elle est disponible via [Google fonts](https://fonts.google.com) [ou un équivalent](https://alternativeto.net/software/google-web-fonts/).
+C'est un peu plus compliqué... 😁 Vous devez d'abord connaître la police que vous désirez utiliser. Ensuite, vérifier si elle est disponible via [Google fonts](https://fonts.google.com) ou [un équivalent](https://alternativeto.net/software/google-web-fonts/).
 
 Ceci fait, vous pouvez importer la police à utiliser grâce à une règle à entrer  dans la boîte de saisie _Custom CSS_, comme ceci :
 
