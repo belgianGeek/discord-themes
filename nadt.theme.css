@@ -11,6 +11,10 @@
     --textColor: white;
 }
 
+body {
+  background-color: #404040;
+}
+
 /*Change all the default font*/
 #app-mount, .description-3_Ncsb, .itemDefault-3Jdr52, .ui-tab-bar-item {
   font-family:  var(--font) !important;
