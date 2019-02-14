@@ -1,8 +1,8 @@
 # Installation
 
-Les thèmes de ce projet fonctionnent grâce à Betterdiscord. Betterdiscord est un programme permettant d'étendre les fonctionnalités du client classique grâce notamment à des plugins (possibilité de citer des messages, de crypter des conversation, etc.) et des thèmes (comme ce projet).
+Les thèmes de ce projet fonctionnent grâce à _Betterdiscord_, qui est un programme permettant d'étendre les fonctionnalités du client classique grâce notamment à des plugins (possibilité de citer des messages, de crypter des conversation, etc.) et des thèmes (comme ce projet).
 
-Si vous ne l'avez pas encore installé sur votre système, je vous conseille de télécharger et installer Betterdiscord, et plus particulièrement le fork que Rauenzi a fait de ce logiciel, disponible [ici](https://github.com/rauenzi/BetterDiscordApp/releases). _BandageBD_ est compatible avec les systèmes Windows et MacOS nativement. Pour les utilisateurs Linux, vous devrez malheureusement vous débrouiller avec l'archive `.tar.gz` ou alors, si vous avez de la chance, votre gestionnaire de paquet l'aura intégré dans ses dépôts.
+Si vous ne l'avez pas encore sur votre système, je vous conseille d'installer plus particulièrement le fork _BandagedBD_, disponible [ici](https://github.com/rauenzi/BetterDiscordApp/releases). _BandageBD_ est compatible avec les systèmes Windows et MacOS nativement. Pour les utilisateurs Linux, vous devrez malheureusement vous débrouiller avec l'archive `.tar.gz` ou alors, si vous avez de la chance, votre gestionnaire de paquet l'aura intégré dans ses dépôts.
 
 Une fois _BandageBD_ installé, rechargez Discord (`ctrl + R` sous Windows et Linux) afin qu'il prenne en compte les changements de configuration. Pour savoir si le programme a été détecté, ouvrez les paramètres de Discord : une nouvelle section intitulée `Bandaged BD` doit s'être ajoutée à la liste de paramètres existante. Si ce n'est pas le cas, redémarrez Discord jusqu'à ce que ça apparaisse, ou alors réinstallez _Bandaged BD_.
 
@@ -24,6 +24,14 @@ Pour commencer, ouvrez les paramètres de Discord et rendez-vous dans la section
 4. `--fourthColor: <couleur>` et `--fifthColor: <couleur>` : modifie la couleur d'arrière-plan des paramètres et des fenêtres popups.
 4. `--font: <nom_police>` : change la police de caractère utilisée par Discord. Cette règle est à utiliser conjointement avec `@import url(<url_police>)` et est détaillée au point suivant.
 5. `--textColor: <couleur>` : change la couleur du texte (presque) partout dans Discord.
+
+:sparkles: La version `1.3.0` apporte de nouvelles règles facilitant la personnalisation :
+
+- `--fouthColor: <couleur>` et `--fifthColor: <couleur>` : ajoute un fond aux sous-menus de paramètres, des profils utilisateurs, etc.
+- `--backgroundImage: url(<url_image>)`: change l'image de fond d'écran.
+- `--buttonColor: <couleur>`: modifie la couleur des boutons de la barre d'outils.
+- `--homeIcon: url(url_image>)`: change l'image remplissant le bouton _home_ de Discord (en haut à gauche de l'interface).
+    ⚠ La taille de l'icône choisie doit être inférieure ou égale à 50x50px.
 
 Toutes ces règles (à l'exception du `@import` qui doit être placé en premier, en-dehors de tout ensemble de règles) doivent être placées à l'intérieur d'un bloc de déclarations comme suit :
 
@@ -59,9 +67,11 @@ Vous pouvez utiliser le schéma suivant :
     
 Notez que vous ne pouvez appliquer que l'une de ces deux règles, et non pas les deux en même temps.
 
+😉 Depuis la version 1.3.0, ces règles peuvent être remplacées par le paramètre `--backgroundImage: url(<url_image>)`
+
 # Contribuer
 
-Vous pouvez contribuer à ce projet en proposant des améliorations (ouvrir une issue, une pull request, ...) ou me contactant par mail ou via Diaspora.
+Vous pouvez contribuer à ce projet en proposant des améliorations (ouvrir une issue, une pull request, ...) ou me contactant par mail.
 
 # Un problème, une question ?
 
