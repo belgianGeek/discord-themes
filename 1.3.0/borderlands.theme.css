@@ -497,6 +497,7 @@ body {
   
   .da-layer, .da-titleBar {
   background-color: var(--thirdColor) !important;
+  margin: 0 !important;
   }
   
   /*Tips*/

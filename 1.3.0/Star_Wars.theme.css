@@ -496,7 +496,8 @@ body {
   
   .da-layer, .da-titleBar {
     background-color: var(--thirdColor) !important;
-    }
+    margin: 0 !important;
+  }
   
   /*Tips*/
   .protip-YaFfgO, .protip-YaFfgO div, .pro-1T8RK7, .tip-2ab612, .statusGreen-pvYWjA {
