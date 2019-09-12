@@ -1,83 +1,81 @@
-# Installation
+# How to install and use the themes
 
-Les thèmes de ce projet fonctionnent grâce à _Betterdiscord_, qui est un programme permettant d'étendre les fonctionnalités du client classique grâce notamment à des plugins (possibilité de citer des messages, de crypter des conversation, etc.) et des thèmes (comme ce projet).
+This project's themes use _Betterdiscord_, a piece of software allowing you to extend the features of your Discord client with plugins (you can for example quote messages, encrypt channels...) and themes (like this project).
 
-Si vous ne l'avez pas encore sur votre système, je vous conseille d'installer plus particulièrement le fork _BandagedBD_, disponible [ici](https://github.com/rauenzi/BetterDiscordApp/releases). _BandageBD_ est compatible avec les systèmes Windows et MacOS nativement. Pour les utilisateurs Linux, vous devrez malheureusement vous débrouiller avec l'archive `.tar.gz` ou alors, si vous avez de la chance, votre gestionnaire de paquet l'aura intégré dans ses dépôts.
+If you don't have it installed yet, I advise you to install more specifically _BandagedBD_, a _Betterdiscord_ fork made by Rauenzi. It is available [here](https://github.com/rauenzi/BetterDiscordApp/releases). _BandagedBD_ is fully compatible with Windows and MacOS. If you run Linux, you will have to deal with the `.tar.gz` archive or , if you are lucky, it is already suppported by your package manager.
 
-Une fois _BandageBD_ installé, rechargez Discord (`ctrl + R` sous Windows et Linux) afin qu'il prenne en compte les changements de configuration. Pour savoir si le programme a été détecté, ouvrez les paramètres de Discord : une nouvelle section intitulée `Bandaged BD` doit s'être ajoutée à la liste de paramètres existante. Si ce n'est pas le cas, redémarrez Discord jusqu'à ce que ça apparaisse, ou alors réinstallez _Bandaged BD_.
+Once _BandagedBD_ is installed, reload Discord (`ctrl + R` on Windows and Linux) so to apply your config changes. To know if Discord has detected _BandagedBD_, just open the Discord settings : a new section named `BandagedBD` had to be added to the existing settings list. If this is not the case, restart Discord until it comes up, or reinstall _BandagedBD_.
 
-Pout installer le(s) thème(s) de votre choix, il vous suffit de télécharger les fichiers de votre choix ayant l'extension `.theme.css`. Ceci fait, rendez-vous dans les paramètres de Discord, dans la section _Themes_ et cliquez sur le bouton _Open Theme Folder_. Collez-y le(s) thème(s) que vous avez téléchargés.
+To install the theme(s) of your choice, you just have to download the `.theme.css` file you want. Once done, have a look in the Discord settings, in the newly added _Themes_ section and click on the button _Open theme folder_. Paste the theme(s) you have downloaded in the opened explorator window.
 
-Pour activer/désactiver un thème, il vous suffit de cliquer sur le bouton prévu à cet effet à côté du nom de chacun. Une fois un thème activé, l'interface de Discord devrait changer automatiquement afin de s'adapter à la nouvelle configuration.
+To (de)activate a theme, just click on the button next to each theme's name. Once a theme is activated, the Discord interface should automatically adapt itself to the new config.
 
-# Personnaliser un thème existant
+# Customize an existing theme
 
-Les thèmes fournis dans ce projet (un aperçu de chacun est disponible [ici](https://framagit.org/Leroux47/discord-themes/tree/master/images)) ne sont pas à votre goût ? Pas de soucis, la personnalisation est très simple.
+You're not satisfied with these themes (previews are available [here](https://framagit.org/Leroux47/discord-themes/tree/master/images)) ?
+Don't worry, the customization is EXTREMELY easy.
 
-Pour commencer, ouvrez les paramètres de Discord et rendez-vous dans la section _Custom CSS_.
+First of all, head over the Discord settings, in the _Custom CSS_ menu.
 
-## Changer l'apparence générale (couleurs, police d'écriture, etc.)
+## Modify the global appareance (colors, fonts...)
 
-1. `--mainColor: <couleur>` : permet notamment de changer la couleur des titres, de l'intitulé des boutons, des checkboxes, l'arrière-plan des noms de serveurs (s'ils n'ont pas d'avatar), ainsi que celui des notifications.
-2. `--secondColor: <couleur>` : permet notamment de modifier l'arrière plan des boutons et le style appliqué aux noms des serveurs lorsqu'ils sont survolés.
-3. `--thirdColor: <couleur>` : modifie la couleur d'arrière-plan des salons de discussion, de la liste d'amis, de la liste des membres d'un serveur.
-4. `--fourthColor: <couleur>` et `--fifthColor: <couleur>` : modifie la couleur d'arrière-plan des paramètres et des fenêtres popups.
-4. `--font: <nom_police>` : change la police de caractère utilisée par Discord. Cette règle est à utiliser conjointement avec `@import url(<url_police>)` et est détaillée au point suivant.
-5. `--textColor: <couleur>` : change la couleur du texte (presque) partout dans Discord.
+1. `--mainColor: <color>` : modify the main colors of the interface (titles, buttons, checkboxes, guild names background...).
+2. `--secondColor: <color>` : applies to the buttons backrgound and to the guild names on hover.
+3. `--thirdColor: <color>` : change the background color of the channels names, the friends list and the guild members list.
+4. `--fourthColor: <color>` and `--fifthColor: <color>` : modify the settings and popup windows background color.
+4. `--font: <font_name>` : modify the font used in Discord. This rule needs to be used with a `@import url(<font_url>)` statement, explained below.
+5. `--textColor: <color>` : change the font color (almost) everywhere in Discord.
 
-:sparkles: La version `1.3.0` apporte de nouvelles règles facilitant la personnalisation :
+:sparkles: The `1.3.0` release introduced new rules to make customization easier :
 
-- `--fouthColor: <couleur>` et `--fifthColor: <couleur>` : ajoute un fond aux sous-menus de paramètres, des profils utilisateurs, etc.
-- `--backgroundImage: url(<url_image>)`: change l'image de fond d'écran.
-- `--buttonColor: <couleur>`: modifie la couleur des boutons de la barre d'outils.
-- `--homeIcon: url(url_image>)`: change l'image remplissant le bouton _home_ de Discord (en haut à gauche de l'interface).
-    ⚠ La taille de l'icône choisie doit être inférieure ou égale à 50x50px.
+- `--fouthColor: <color>` and `--fifthColor: <color>` : add a background to the settings submenus, users profile, etc.
+- `--backgroundImage: url(<image_url>)`: modify the background image.
+- `--buttonColor: <color>`: change the toolbar buttons color.
+- `--homeIcon: url(image_url>)`: change the background image of the Discord _Home_ button (in the upper left corner of the Discord interface).
+    ⚠ The chosen icon size must be at most 50x50 px.
 
-Toutes ces règles (à l'exception du `@import` qui doit être placé en premier, en-dehors de tout ensemble de règles) doivent être placées à l'intérieur d'un bloc de déclarations comme suit :
+All those rules (except the `@import`, which has to be the first, out of any rules group) must be placed inside a statements block like the following :
 
-    :root {
-        règle1 : <valeur>;
-        règle2 : <valeur>;
-        }
-
-## Changer la police d'écriture
-
-C'est un peu plus compliqué... 😁 Vous devez d'abord connaître la police que vous désirez utiliser. Ensuite, vérifier si elle est disponible via [Google fonts](https://fonts.google.com) ou [un équivalent](https://alternativeto.net/software/google-web-fonts/).
-
-Ceci fait, vous pouvez importer la police à utiliser grâce à une règle à entrer  dans la boîte de saisie _Custom CSS_, comme ceci :
-
-    @import url(<url_police>);
-
-    :root {
-        --font : <nom_police>;
+:root {
+    rule1 : <value>;
+    rule2 : <value>;
     }
 
-N'oubliez pas non plus d'utiliser le paramètre `--font: <nom_police> !important` afin d'utiliser la police dans votre thème.
+## Modify the font style
 
-Vous pouvez changer le couleur du texte grâce à la règle `--textColor: <couleur>`.
+A bit more complicated... 😁 First, you must know which font you want to use. Then, verify if it's available via [Google fonts](https://fonts.google.com) or [a equivalent](https://alternativeto.net/software/google-web-fonts/).
 
-## Modifier la couleur/l'image utilisée en fond d'écran de Discord
+Once done, you can import your font thanks to a rule you can add in the _Custom CSS_ input box, like this :
 
-Vous pouvez utiliser le schéma suivant :
+    @import url(<font_url>);
 
-    body {
-        background-image: url(<url_image>);
-        background-color: <couleur>;
+    :root {
+        --font : <font_name>;
     }
-    
-Notez que vous ne pouvez appliquer que l'une de ces deux règles, et non pas les deux en même temps.
 
-😉 Depuis la version 1.3.0, ces règles peuvent être remplacées par le paramètre `--backgroundImage: url(<url_image>)`
+You can change the text color using the `--textColor: <color>` rule.
 
-# Contribuer
+## Modify the background color/image
 
-Vous pouvez contribuer à ce projet en proposant des améliorations (ouvrir une issue, une pull request, ...) ou me contactant par mail.
+You can use this schema :
 
-# Un problème, une question ?
+body {
+    background-image: url(<image_url>);
+    background-color: <color>;
+}
 
-Ouvrez une issue ou contactez-moi si vous avez le moindre problème et que vous ne savez pas comment le régler par vous-même.
+😉 Since the `1.3.0` release, these rules can be replaced by this : `--backgroundImage: url(<image_url>)`.
 
-# Licence
+Please note you can only use one of these rules at the same time.
 
-L'entiéreté de ce dépôt est placé sous licence GNU GPL v3, à l'exception de l'avatar du projet, qui vient d'[ici](https://www.iconfinder.com/icons/1542372/discord_media_social_icon).
+# Contribute
 
+You can contribute to this project by suggesting enhancements (open an issue, suggest a pull request...) on GitHub/GitLab or by email.
+
+# You have an issue/question ?
+
+Raise an issue or feel free to contact me.
+
+# License
+
+All this repo is licensed under the GNU GPL v3, except the project's avatar, which comes from [here](https://www.iconfinder.com/icons/1542372/discord_media_social_icon).
