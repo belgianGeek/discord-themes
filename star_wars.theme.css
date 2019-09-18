@@ -1125,12 +1125,12 @@ h2, h5 {
 
 /*Messages dividers*/
 /*----------------------------------------*/
-.dividerContent-2L12VI {
+.da-dividerContent {
   color: var(--mainColor) !important;
 }
 
-.dividerContent-2L12VI::before, .dividerContent-2L12VI::after {
-  border-color: var(--mainColor) !important;
+.da-dividerContent::before, .da-dividerContent::after {
+  background-color: var(--mainColor) !important;
 }
 
 /*----------------------------------------*/
