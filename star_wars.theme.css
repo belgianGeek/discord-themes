@@ -1102,7 +1102,7 @@ h2, h5 {
 .newMessagesBar-mujexs button:last-child {
   background-color: var(--secondColor) !important;
   color: var(--mainColor) !important;
-  padding: 5px !important
+  padding: 5px !important;
 }
 
 .newMessagesBar-mujexs button:last-child:hover {
