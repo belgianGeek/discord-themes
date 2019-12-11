@@ -1,4 +1,4 @@
-//META{"name":"Star Wars Discord Theme","description":"Not Another Star Wars Discord Theme","author":"Leroux47","version":"1.3.2"}*//
+//META{"name":"Star Wars Discord Theme","description":"Not Another Star Wars Discord Theme","author":"Leroux47","version":"1.3.3"}*//
 /*Import font*/
 @import url(https://fontlibrary.org/face/square-grotesk);
 
@@ -16,6 +16,13 @@
 
 body {
   background-image: var(--backgroundImage);
+}
+
+.theme-dark, .appMount-3lHmkl, body {
+  --background-primary: transparent !important;
+  --background-secondary: transparent !important;
+  --background-tertiary: transparent !important;
+  --channeltextarea-background: transparent !important;
 }
 
 /*Change all the default font*/
@@ -455,6 +462,12 @@ svg[name="Close"] g path[class="fill"], .btn-close svg g path[class="fill"] {
 }
 
 /*----------------------------------------*/
+/*Chat box*/
+.da-channelTextArea {
+  box-shadow: 0 0 20px 2px var(--mainColor);
+  border-radius: 15px;
+}
+
 /*----------------------------------------*/
 /*Channel search results*/
 .da-searchResultsWrap {
@@ -579,12 +592,12 @@ svg[name="Close"] g path[class="fill"], .btn-close svg g path[class="fill"] {
 
 /*Change some borders style*/
 .titleWrapper-1l0xT9, .containerCozyBounded-1rKFAn.containerCozy-jafyvG.container-1YxwTf.da-containerCozyBounded.da-containerCozy.da-container,
-.popout-3sVMXz, .inner-zqa7da, .content-OzHfo4 {
+.popout-3sVMXz, .content-OzHfo4 {
   border-radius: 15px !important;
 }
 
 /*Chat borders*/
-.scroller-wrap.scrollerWrap-2su1QI.da-scrollerWrap, .inner-zqa7da {
+.scroller-wrap.scrollerWrap-2su1QI.da-scrollerWrap {
   border-style: none !important;
   border-radius: 15px 0px 0px 15px;
   box-shadow: 0 0 20px 0px var(--mainColor) !important;
@@ -749,7 +762,6 @@ button .contents-18-Yxp {
 
 /*----------------------------------------*/
 .inner-zqa7da {
-  border: 1px solid var(--mainColor) !important;
   background-color: transparent !important;
 }
 
@@ -1102,7 +1114,7 @@ h2, h5 {
 .newMessagesBar-mujexs button:last-child {
   background-color: var(--secondColor) !important;
   color: var(--mainColor) !important;
-  padding: 5px !important;
+  padding: 5px !important
 }
 
 .newMessagesBar-mujexs button:last-child:hover {
